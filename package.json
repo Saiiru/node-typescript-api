@@ -1,0 +1,32 @@
+{
+  "name": "typescript-api",
+  "version": "1.0.0",
+  "description": "Typescript node.js api",
+  "main": "index.js",
+ "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Saiiru/node-typescript-api.git"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "api"
+  ],
+  "author": "Sairu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saiiru/node-typescript-api/issues"
+  },
+  "homepage": "https://github.com/Saiiru/node-typescript-api#readme",
+  "dependencies": {
+    "@types/module-alias": "^2.0.1",
+    "@types/node": "^20.1.4",
+    "module-alias": "^2.2.2",
+    "typescript": "^5.0.4"
+  }
+}
